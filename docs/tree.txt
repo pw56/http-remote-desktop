@@ -1,0 +1,25 @@
+http-remote-desktop
+├── docs
+├── src
+│   ├── windows
+│   │   ├── boot_windows.psl
+│   │   ├── app.go
+│   │   ├── media.go
+│   │   ├── input.go
+│   │   ├── communication.go
+│   │   └── ports.go
+│   ├── linux_debian
+│   │   ├── boot_linux_debian.sh
+│   │   ├── app.go
+│   │   ├── media.go
+│   │   ├── input.go
+│   │   ├── communication.go
+│   │   └── ports.go
+│   └── browser
+├── app
+│   ├── boot_windows.psl
+│   ├── boot_linux_debian.sh
+│   ├── app.exe
+│   └── app.deb
+├── LICENSE
+└── README.md
