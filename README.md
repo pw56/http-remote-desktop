@@ -5,15 +5,23 @@
 このリポジトリでは、ブラウザからウェブページとしてアクセスし、ブラウザのAPIを利用して通常のPCのように快適にリモートデスクトップを実現することです。
 
 ## 使用技術・言語
+
+### プログラミング言語
 - Go言語
 - HTML
 - CSS
 - JavaScript
+
+### 使用技術
+- Web Worker
+- WebGPU
 - Canvas
+- Web Audio
+- WebRTC
 - WebSocket
+- Web RTC
 - WebUSB
 - Web Bluetooth
-- Shell script
 
 ## ファイル構成
 ```
