@@ -9,8 +9,8 @@
 - HTML
 - CSS
 - JavaScript
-- Socket
 - Canvas
+- WebSocket
 - WebUSB
 - Web Bluetooth
 - Shell script
