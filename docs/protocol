@@ -6,3 +6,15 @@
 ## 構造
 
 yml
+yamlのプロトコル
+メディア
+- screen
+- audio
+入力
+- keyboard
+- mouse
+- microphone
+- camera
+ポート
+- usb
+-
