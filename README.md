@@ -11,9 +11,11 @@
 - HTML
 - CSS
 - JavaScript
+- C言語
 
 ### 使用技術
 - Web Worker
+- WebAssembly
 - WebGPU
 - Canvas
 - Web Audio
@@ -60,8 +62,8 @@ http-remote-desktop
 │   │   └── communication.go         - ブラウザとの通信を確立
 │   └── browser                    - ブラウザ側のページ
 │       ├── index.html               - 接続ページ
-│       ├── style.css                - スタイルシート
-│       └── script                   - プログラム
+│       ├── style.css                - 接続ページのスタイルシート
+│       └── script                   - 接続ページのプログラム
 │           ├── main.js                - メインプログラム
 │           ├── media.js               - デバイスから送られた映像や音声をブラウザに出力
 │           ├── input.js               - ブラウザの操作をデバイスに送信
