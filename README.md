@@ -20,7 +20,7 @@
 - Canvas
 - Web Audio
 - WebSocket
-- Web RTC
+- WebRTC
 - WebUSB
 - Web Bluetooth
 
