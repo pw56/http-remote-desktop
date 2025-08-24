@@ -1,9 +1,5 @@
 # input.js
 
-キーボードの入力があった際にJavaScrptで入力されたキーを検出し、C言語(Wasm)の関数に入力されキーを入れ、Wasmで高速に入力されたキーをキーコード(数値型)に変換。
-変換されたキーコードを"communication.js"を通じてデバイスに送信。
+Web Workerで別スレッドを立ち上げ、キーボードの入力があった際にJavaScrptで入力されたキーを検出し、キーコードを"communication.js"を通じてデバイスに送信。
 マウスの入力があった際にJavaScrptで入力された内容を検出し、"communication.js"を通じてデバイスに送信。
-
-
-
-マイクとかも未入力
+デバイスからリクエストがあった際に、Web Workerで別スレッドを立ち上げ、マイクの音声やカメラの映像をWebGPUなどを使用し高速にフォーマットして(communication.mdを参照)、"communication.js"を通じてデバイスに送信。

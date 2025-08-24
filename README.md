@@ -68,7 +68,9 @@ http-remote-desktop
 │           ├── media.js               - デバイスから送られた映像や音声をブラウザに出力
 │           ├── input.js               - ブラウザの操作をデバイスに送信
 │           ├── ports.js               - デバイスとブラウザのUSBやBluetooth、AUXなどのIOポートの入出力を連動
-│           └── communication.js       - デバイスとの通信を確立
+│           ├── communication.js       - デバイスとの通信を確立
+│           ├── comm-converter.c       - USBやBluetooth(BLE)の信号をエンコード・デコード
+│           ├── comm-converter.c       - "comm"
 ├── app                          - ビルドされたアプリケーション本体
 │   ├── app.exe                    - Windowsのコマンドラインアプリケーション
 │   ├── app.app                    - macOSのコマンドラインアプリケーション
