@@ -19,7 +19,6 @@
 - WebGPU
 - Canvas
 - Web Audio
-- WebRTC
 - WebSocket
 - Web RTC
 - WebUSB
