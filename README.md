@@ -63,10 +63,10 @@ http-remote-desktop
 │       ├── style.css                - スタイルシート
 │       └── script                   - プログラム
 │           ├── main.js                - メインプログラム
-│           ├── media.go               - デバイスから送られた映像や音声をブラウザに出力
-│           ├── input.go               - ブラウザの操作をデバイスに送信
-│           ├── ports.go               - デバイスとブラウザのUSBやBluetooth、AUXなどのIOポートの入出力を連動
-│           └── communication.go       - デバイスとの通信を確立
+│           ├── media.js               - デバイスから送られた映像や音声をブラウザに出力
+│           ├── input.js               - ブラウザの操作をデバイスに送信
+│           ├── ports.js               - デバイスとブラウザのUSBやBluetooth、AUXなどのIOポートの入出力を連動
+│           └── communication.js       - デバイスとの通信を確立
 ├── app                          - ビルドされたアプリケーション本体
 │   ├── app.exe                    - Windowsのコマンドラインアプリケーション
 │   ├── app.app                    - macOSのコマンドラインアプリケーション
