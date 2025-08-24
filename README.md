@@ -46,6 +46,7 @@ http-remote-desktop
 │   │   │       ├── ports.js.md          - "ports.js"についてのドキュメント
 │   │   │       └── communication.js.md  - "communication.js"についてのドキュメント
 │   │   └── app.md                   - デバイス上で動作するコマンドラインアプリケーション本体についてのドキュメント
+│   ├── communication.md           - デバイスとブラウザの通信の内容とプロトコについて記載されたドキュメント
 │   └── tree.txt                   - ディレクトリ構造
 ├── src                          - ソースコードのフォルダ
 │   ├── windows                    - Windows用プログラム
@@ -70,7 +71,7 @@ http-remote-desktop
 │           ├── ports.js               - デバイスとブラウザのUSBやBluetooth、AUXなどのIOポートの入出力を連動
 │           ├── communication.js       - デバイスとの通信を確立
 │           ├── comm-converter.c       - USBやBluetooth(BLE)の信号をエンコード・デコード
-│           ├── comm-converter.c       - "comm"
+│           └── comm-converter.wasm    - "comm-converter.c"をコンパイルしたWasmファイル
 ├── app                          - ビルドされたアプリケーション本体
 │   ├── app.exe                    - Windowsのコマンドラインアプリケーション
 │   ├── app.app                    - macOSのコマンドラインアプリケーション
