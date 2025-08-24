@@ -52,6 +52,7 @@ http-remote-desktop
 │           └── communication.go       - デバイスとの通信を確立
 ├── app                          - ビルドされたアプリケーション本体
 │   ├── app.exe                    - Windowsのコマンドラインアプリケーション
+│   ├── app.app                    - Mac OSのコマンドラインアプリケーション
 │   └── app.deb                    - Linux(debian系)のコマンドラインアプリケーション
 ├── LICENSE                      - このリポジトリのライセンスファイル
 └── README.md                    - このリポジトリのREADMEファイル
