@@ -1,4 +1,10 @@
-# app.deb
+# アプリケーション本体
+
+## 概要
+それぞれの環境ごとにソースコードをビルドする
+- Windows: app.exe
+- macOS: app.app
+- Linux(debian系): app.deb
 
 ## 動作
 1. コマンドラインで起動する(日本語)
