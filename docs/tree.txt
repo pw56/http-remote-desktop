@@ -1,25 +1,51 @@
 http-remote-desktop
 ├── docs
+│   ├── file
+│   │   ├── device
+│   │   │   ├── main.go.md
+│   │   │   ├── media.go.md
+│   │   │   ├── input.go.md
+│   │   │   ├── ports.go.md
+│   │   │   └── communication.go.md
+│   │   ├── browser
+│   │   │   ├── index.html.md
+│   │   │   ├── style.css.md
+│   │   │   └── script
+│   │   │       ├── main.js.md
+│   │   │       ├── media.js.md
+│   │   │       ├── input.js.md
+│   │   │       ├── ports.js.md
+│   │   │       └── communication.js.md
+│   │   └── app.md
+│   ├── communication.md
+│   └── tree.txt
 ├── src
 │   ├── windows
-│   │   ├── boot_windows.psl
-│   │   ├── app.go
+│   │   ├── main.go
 │   │   ├── media.go
 │   │   ├── input.go
-│   │   ├── communication.go
-│   │   └── ports.go
+│   │   ├── ports.go
+│   │   └── communication.go
 │   ├── linux_debian
-│   │   ├── boot_linux_debian.sh
-│   │   ├── app.go
+│   │   ├── main.go
 │   │   ├── media.go
 │   │   ├── input.go
-│   │   ├── communication.go
-│   │   └── ports.go
+│   │   ├── ports.go
+│   │   └── communication.go
 │   └── browser
+│       ├── index.html
+│       ├── style.css
+│       └── script
+│           ├── main.js
+│           ├── media.js
+│           ├── input.js
+│           ├── ports.js
+│           ├── communication.js
+│           ├── comm-converter.c
+│           └── comm-converter.wasm
 ├── app
-│   ├── boot_windows.psl
-│   ├── boot_linux_debian.sh
 │   ├── app.exe
+│   ├── app.app
 │   └── app.deb
 ├── LICENSE
 └── README.md
